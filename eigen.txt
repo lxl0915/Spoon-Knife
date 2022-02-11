@@ -1,0 +1,841 @@
+osboxes@osboxes:~/eigen/build$ cmake .. -DCMAKE_INSTALL_PREFIX=/home/osboxes/temp
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test standard_math_library_linked_to_automatically
+-- Performing Test standard_math_library_linked_to_automatically - Success
+-- Standard libraries to link to explicitly: none
+-- Performing Test COMPILER_SUPPORT_WERROR
+-- Performing Test COMPILER_SUPPORT_WERROR - Success
+-- Performing Test COMPILER_SUPPORT_pedantic
+-- Performing Test COMPILER_SUPPORT_pedantic - Success
+-- Performing Test COMPILER_SUPPORT_Wall
+-- Performing Test COMPILER_SUPPORT_Wall - Success
+-- Performing Test COMPILER_SUPPORT_Wextra
+-- Performing Test COMPILER_SUPPORT_Wextra - Success
+-- Performing Test COMPILER_SUPPORT_Wundef
+-- Performing Test COMPILER_SUPPORT_Wundef - Success
+-- Performing Test COMPILER_SUPPORT_Wcastalign
+-- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+-- Performing Test COMPILER_SUPPORT_Wpointerarith
+-- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+-- Performing Test COMPILER_SUPPORT_Wwritestrings
+-- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+-- Performing Test COMPILER_SUPPORT_Wlogicalop
+-- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+-- Performing Test COMPILER_SUPPORT_Wenumconversion
+-- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+-- Performing Test COMPILER_SUPPORT_Wshadow
+-- Performing Test COMPILER_SUPPORT_Wshadow - Success
+-- Performing Test COMPILER_SUPPORT_Wnopsabi
+-- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+-- Performing Test COMPILER_SUPPORT_Wnolonglong
+-- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+-- Performing Test COMPILER_SUPPORT_fnochecknew
+-- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+-- Performing Test COMPILER_SUPPORT_fnocommon
+-- Performing Test COMPILER_SUPPORT_fnocommon - Success
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+-- Performing Test COMPILER_SUPPORT_wd981
+-- Performing Test COMPILER_SUPPORT_wd981 - Failed
+-- Performing Test COMPILER_SUPPORT_wd2304
+-- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+-- Performing Test COMPILER_SUPPORT_OPENMP
+-- Performing Test COMPILER_SUPPORT_OPENMP - Success
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Looking for a Fortran compiler
+-- Looking for a Fortran compiler - NOTFOUND
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- LAPACK requires BLAS
+-- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+-- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+-- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) 
+-- Could NOT find SuperLU (missing: SUPERLU_INCLUDES SUPERLU_LIBRARIES SUPERLU_VERSION_OK) (Required is at least version "4.0")
+-- Checking for one of the modules 'hwloc'
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+-- Could NOT find SPQR (missing: SPQR_INCLUDES SPQR_LIBRARIES) 
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Performing Test COMPILER_SUPPORT_FASTMATH
+-- Performing Test COMPILER_SUPPORT_FASTMATH - Success
+-- Could NOT find Boost (missing: Boost_INCLUDE_DIR) (Required is at least version "1.53.0")
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "9.0")
+-- Could NOT find GoogleHash (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) 
+-- Could NOT find Adolc (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) 
+-- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "1.0.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) 
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "9.0")
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Qt4 not found, so disabling the mandelbrot and opengl demos
+-- Could NOT find CLANG_FORMAT: Found unsuitable version "0.0", but required is exact version "9" (found CLANG_FORMAT_EXECUTABLE-NOTFOUND)
+-- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+-- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+-- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) 
+-- Could NOT find SuperLU (missing: SUPERLU_INCLUDES SUPERLU_LIBRARIES SUPERLU_VERSION_OK) (Required is at least version "4.0")
+-- Checking for one of the modules 'hwloc'
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+-- ************************************************************
+-- ***    Eigen's unit tests configuration summary          ***
+-- ************************************************************
+-- 
+-- Build type:        Release
+-- Build site:        osboxes
+-- Build string:      linux-5.11.0-46-generic-_-9.3.0-sse2-64bit
+-- Enabled backends:  
+-- Disabled backends: CHOLMOD,  UMFPACK,  KLU,  SuperLU,  PaStiX,  METIS,  SPQR,  Qt4 support,  Boost.Multiprecision,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, 
+-- Default order:     Column-major
+-- Maximal matrix/vector size: 320
+-- SSE2:              Using architecture defaults
+-- SSE3:              Using architecture defaults
+-- SSSE3:             Using architecture defaults
+-- SSE4.1:            Using architecture defaults
+-- SSE4.2:            Using architecture defaults
+-- AVX:               Using architecture defaults
+-- AVX2:              Using architecture defaults
+-- FMA:               Using architecture defaults
+-- AVX512:            Using architecture defaults
+-- AVX512DQ:          Using architecture defaults
+-- Altivec:           Using architecture defaults
+-- VSX:               Using architecture defaults
+-- MIPS MSA:          Using architecture defaults
+-- ARM NEON:          Using architecture defaults
+-- ARMv8 NEON:        Using architecture defaults
+-- S390X ZVECTOR:     Using architecture defaults
+-- SYCL:              OFF
+-- CUDA:              OFF
+-- HIP:               OFF
+-- 
+CXX:               /usr/bin/c++
+ CXX_VERSION:       c++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+ CXX_FLAGS:          -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing
+ Sparse lib flags:   
+
+-- ************************************************************
+-- 
+-- Configured Eigen 3.4.90
+-- 
+-- Available targets (use: make TARGET):
+-- ---------+--------------------------------------------------------------
+-- Target   |   Description
+-- ---------+--------------------------------------------------------------
+-- install  | Install Eigen. Headers will be installed to:
+--          |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+--          |   Using the following values:
+--          |     CMAKE_INSTALL_PREFIX: /home/osboxes/temp
+--          |     INCLUDE_INSTALL_DIR:  include/eigen3
+--          |   Change the install location of Eigen headers using:
+--          |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+--          |   Or:
+--          |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+-- doc      | Generate the API documentation, requires Doxygen & LaTeX
+-- check    | Build and run the unit-tests. Read this page:
+--          |   http://eigen.tuxfamily.org/index.php?title=Tests
+-- blas     | Build BLAS library (not the same thing as Eigen)
+-- uninstall| Remove files installed by the install target
+-- ---------+--------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osboxes/eigen/build
+osboxes@osboxes:~/eigen/build$ make install
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/osboxes/temp/include/eigen3/signature_of_eigen3_matrix_library
+-- Installing: /home/osboxes/temp/share/pkgconfig/eigen3.pc
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Jacobi
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Jacobi/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/UmfPackSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/UmfPackSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/SVDBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/BDCSVD.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Transform.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Scaling.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/RotationBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/arch
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Translation.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Umeyama.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Quaternion.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Householder
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Householder/Householder.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Householder/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/KLUSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/KLUSupport/KLUSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/KLUSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/PartialPivLU.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/FullPivLU.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/Determinant.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/arch
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/LU/InverseImpl.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/CholmodSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/CholmodSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Swap.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Inverse.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CoreIterators.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/BooleanRedux.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Dot.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Stride.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Map.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ReturnByValue.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Fuzzy.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/MapBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/DenseStorage.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Diagonal.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Matrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Reverse.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CommaInitializer.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/UnaryFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/HIP
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/HIP/hcc
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SVE
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SVE/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SVE/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SVE/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SSE
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/MSA
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/MSA/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/MSA/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/MSA/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX512
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/ZVector
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU/TypeCasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/GPU/Tuple.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixVectorProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/VectorBlock.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/IO.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/GeneralProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Redux.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/EigenBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Transpositions.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Array.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Transpose.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/NestByValue.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Block.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/NumTraits.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Assign_MKL.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Assign.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Random.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Ref.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/ArrayBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Replicate.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Visitor.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/StlIterators.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Reshaped.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Solve.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/BandMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/StableNorm.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/NoAlias.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/DenseBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/MatrixBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Select.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/SolveTriangular.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/Product.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/Memory.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/XprHelper.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/Serializer.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/Meta.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/Macros.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/MKL_support.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/Constants.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/SolverBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Core/IndexedView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PardisoSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PardisoSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCholesky
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCholesky/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseQR
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SparseQR/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Cholesky
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Cholesky/LLT.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Cholesky/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Cholesky/LDLT.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/StlSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/StlSupport/StdList.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/StlSupport/StdVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/StlSupport/details.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PaStiXSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/PaStiXSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/HouseholderQR.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SuperLUSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SuperLUSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SPQRSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/SPQRSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/BlockMethods.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/MetisSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/MetisSupport/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/Image.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/lapacke_helpers.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/Kernel.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/lapack.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/lapacke.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/misc/blas.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/OrderingMethods
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/OrderingMethods/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/QtAlignedMalloc
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Jacobi
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/UmfPackSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/IterativeLinearSolvers
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Eigenvalues
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SVD
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Geometry
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SparseLU
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/StdVector
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Eigen
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Householder
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/StdList
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/KLUSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/StdDeque
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Sparse
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/LU
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/CholmodSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Core
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SparseCore
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/PardisoSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SparseCholesky
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SparseQR
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Cholesky
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/PaStiXSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/QR
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SuperLUSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/Dense
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/SPQRSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/MetisSupport
+-- Installing: /home/osboxes/temp/include/eigen3/Eigen/OrderingMethods
+-- Installing: /home/osboxes/temp/share/eigen3/cmake/Eigen3Targets.cmake
+-- Installing: /home/osboxes/temp/share/eigen3/cmake/Eigen3Config.cmake
+-- Installing: /home/osboxes/temp/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/AdolcForward
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/AlignedVector3
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/ArpackSupport
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/AutoDiff
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/BVH
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/EulerAngles
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/FFT
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/IterativeSolvers
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/KroneckerProduct
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/LevenbergMarquardt
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/MatrixFunctions
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/MoreVectorization
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/MPRealSupport
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/NonLinearOptimization
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/NumericalDiff
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/OpenGLSupport
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/Polynomials
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/Skyline
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/SparseExtra
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/SpecialFunctions
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/Splines
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Polynomials
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Polynomials/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Eigenvalues
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Eigenvalues/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IDRSTABL.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/BiCGSTABL.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineStorage.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineUtil.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/BVH
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/BVH/BVAlgorithms.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/BVH/KdBVH.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/BVH/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/HipVectorCompatibility.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/SpecialFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/BesselFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/SpecialFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/BesselFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/SpecialFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/BesselFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU/SpecialFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MoreVectorization
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/MoreVectorization/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/KroneckerProduct
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/KroneckerProduct/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/SparseExtra/MarketIO.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NumericalDiff
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/NumericalDiff/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Splines
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Splines/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/FFT
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/FFT/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/EulerAngles
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/EulerAngles/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/AutoDiff
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/AutoDiff/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/Tensor
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/TensorSymmetry
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/ThreadPool
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionCuda.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionSycl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceCuda.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScanSycl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolutionSycl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/util
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/Barrier.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadCancel.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/InternalHeaderCheck.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+-- Installing: /home/osboxes/temp/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
